@@ -18,6 +18,10 @@
   border-bottom: 2px solid #ddd;
 }
 
+.step {
+  border-bottom: 2px solid #ddd;
+}
+
 h1 {
   font-weight: bold;
   font-size: 24px;
@@ -29,10 +33,26 @@ h1 {
   font-style: italic;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+
+  padding: 0 60px 0 15px;
+  margin: 15px 0 0 0;
+  text-transform: uppercase;
+  background: #ffD;
+  font-style: italic;
+}
+
 .description {
   font-size: 14px;
   max-width: 600px;
   padding-left: 15px;
+}
+
+
+header .description {
   font-weight: bold;
 }
 
@@ -64,4 +84,7 @@ a:hover {
 body, html {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

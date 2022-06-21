@@ -1,5 +1,7 @@
-import React from 'react';
- import './App.css';
+import './App.css';
+import Step1 from './Step1';
+import Step2 from './Step2';
+import StepWithdraw from './StepWithdraw';
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
           Created by the Kaali cartel
         </p>
       </header>
+
+      <Step1 />
+      <Step2 />
+      <StepWithdraw />
     </div>
   );
 }
