@@ -1,0 +1,67 @@
+.App {
+  /* text-align: center; */
+  padding: 15px
+}
+
+.App-logo {
+  height: 100px;
+  border-radius: 100%;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+
+  border-bottom: 2px solid #ddd;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+
+  padding: 0 60px 0 15px;
+  margin: 0;
+  background: #ff0;
+  font-style: italic;
+}
+
+.description {
+  font-size: 14px;
+  max-width: 600px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.comment {
+  font-size: 12px;
+  max-width: 600px;
+  padding-left: 15px;
+  color: #999;
+}
+
+a {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  background: #f00;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
